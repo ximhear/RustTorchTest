@@ -1,6 +1,6 @@
 use tokenizers::{Tokenizer, Result};
 
-fn main()  -> Result<()> {
+fn main() -> Result<()> {
     let input_str = "[국제발신] [해외결제] 확인코드:9**8 [KRW 959,000] 결제가 완료되었습니다. 배송관련 고객센터 070-7893-9043";
 
     let tokenizer = Tokenizer::from_pretrained("bert-base-multilingual-cased", None)?;
